@@ -11,6 +11,7 @@ cp -rp oe-alliance-settings/* .
 rm -rf oe-alliance-settings
 
 find . -name '*satellites.xml*' -type f | xargs rm -f
+find . -name '*_org*' -type f | xargs rm -f
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
