@@ -10,8 +10,12 @@ rm -rf oe-alliance-settings/README.md
 cp -rp oe-alliance-settings/* .
 rm -rf oe-alliance-settings
 
-find . -name '*satellites.xml*' -type f | xargs rm -f
+find . -name '*.xml*' -type f | xargs rm -f
+find . -name '*.url*' -type f | xargs rm -f
 find . -name '*_org*' -type f | xargs rm -f
+find . -name '*.org*' -type f | xargs rm -f
+find . -name '*_bak*' -type f | xargs rm -f
+find . -name '*.bak*' -type f | xargs rm -f
 
 setup_git() {
   git config --global user.email "bot@openvision.tech"
