@@ -539,18 +539,18 @@ transponders
 /
 end
 services
+345d:00c00000:03e9:0001:1:0
+Service13405
+p:ORS
+3464:00c00000:03e9:0001:1:0
+Service 13412
+p:ORF
 3459:00c00000:03e9:0001:31:0
 Service 13401
-p:ORS
-345d:00c00000:03e9:0001:31:0
-Service13405
 p:ORS
 3462:00c00000:03e9:0001:31:0
 RTL UHD Austria
 p:ORS
-3464:00c00000:03e9:0001:31:0
-Service13412
-p:ORF
 1389:00c00000:03ea:0001:1:0
 BBC World News Europe HD
 p:SES ASTRA
@@ -1104,7 +1104,7 @@ p:Movistar+
 M+LCAMPEON12
 p:Movistar+
 7610:00c00000:0408:0001:1:0
-TEST ANCAMP13
+LALIGATVBAR4
 p:Movistar+
 75f9:00c00000:0408:0001:1:0
 TEST LIG8
@@ -1182,7 +1182,7 @@ p:Movistar+
 M+DEPORTES5
 p:Digital+
 77c9:00c00000:040a:0001:1:0
-TEST LIG5
+M+LCampeones BAR 3
 p:Movistar+
 77d8:00c00000:040a:0001:1:0
 M+LCAMPEON4
@@ -1500,7 +1500,7 @@ p:CANAL+
 11097V SID 0x7578
 p:DVB-S QPSK 11097V 19.2Â°E
 7579:00c00000:0412:0001:1:0
-TEST LIG6
+M+LCampeones BAR 2
 p:Movistar+
 757a:00c00000:0412:0001:1:0
 11097V SID 0x757a
@@ -3999,7 +3999,7 @@ p:SKY
 Sky Atlantic HD
 p:SKY
 006f:00c00000:000d:0085:25:0
-Sky Cinema Fast & Furious HD
+Sky CinemaSpecial HD
 p:SKY
 0070:00c00000:000d:0085:25:0
 NatGeo HD
@@ -4850,17 +4850,38 @@ p:CANAL+
 3327:00820000:0190:013e:1:0
 CANAL+ NOW
 p:CANAL+
-332a:00820000:0190:013e:1:0
-11278V SID 0x332a
-p:DVB-S2 8PSK 11278V 13.0Â°E
 32cd:00820000:0190:013e:1:0
 CANAL+ NOW
 p:CANAL+
 32ce:00820000:0190:013e:1:0
 ELEVEN SPORTS 4 HD
 p:CANAL+
+32cf:00820000:0190:013e:1:0
+ANTENA
+p:CANAL+
+32d0:00820000:0190:013e:1:0
+HOME TV
+p:CANAL+
+32d1:00820000:0190:013e:1:0
+POWER TV
+p:CANAL+
+32d2:00820000:0190:013e:1:0
+NUTA TV
+p:CANAL+
+32d3:00820000:0190:013e:1:0
+NUTA GOLD
+p:CANAL+
+32d4:00820000:0190:013e:1:0
+TVC
+p:CANAL+
+32d6:00820000:0190:013e:1:0
+Red Carpet TV
+p:CANAL+
 32d7:00820000:0190:013e:1:0
 STREFA ABONENTA
+p:CANAL+
+32d8:00820000:0190:013e:1:0
+Active Family
 p:CANAL+
 32dc:00820000:0190:013e:1:0
 CANAL+ PREMIUM HD
@@ -4880,12 +4901,6 @@ p:CANAL+
 32f5:00820000:0190:013e:1:0
 STREFA ABONENTA
 p:CANAL+
-32f8:00820000:0190:013e:1:0
-11278V SID 0x32f8
-p:DVB-S2 8PSK 11278V 13.0Â°E
-32f9:00820000:0190:013e:1:0
-11278V SID 0x32f9
-p:DVB-S2 8PSK 11278V 13.0Â°E
 32fa:00820000:0190:013e:1:0
 CANAL+ PREMIUM HD
 p:CANAL+
@@ -4919,6 +4934,9 @@ p:Eutelsat
 089f:00820000:01f4:013e:1:0
 Kurdsat SD
 p:Eutelsat
+08a6:00820000:01f4:013e:1:0
+Medya Haber
+p:Eutelsat
 08a7:00820000:01f4:013e:1:0
 ES TV
 p:Eutelsat
@@ -4939,9 +4957,6 @@ R Radio
 p:Eutelsat
 060e:00820000:01f4:013e:2:0
 Yemen Radio
-p:Eutelsat
-08a9:00820000:01f4:013e:1:0
-ARMPUB TV
 p:Eutelsat
 0003:00820000:02bc:013e:1:0
 Kentron TV
@@ -5021,6 +5036,24 @@ p:TVN
 3779:00820000:044c:013e:1:0
 CANAL+ FILM HD
 p:CANAL+
+378c:00820000:044c:013e:1:0
+La Trois
+p:CANAL+
+378d:00820000:044c:013e:1:0
+RTL-TVi HD
+p:CANAL+
+378e:00820000:044c:013e:1:0
+La Une HD
+p:CANAL+
+378f:00820000:044c:013e:1:0
+Tipik
+p:CANAL+
+3790:00820000:044c:013e:1:0
+Club-RTL
+p:CANAL+
+3791:00820000:044c:013e:1:0
+Plug-RTL
+p:CANAL+
 37ab:00820000:044c:013e:1:0
 CANAL+ FILM HD
 p:CANAL+
@@ -5092,24 +5125,6 @@ CANAL+ KUCHNIA
 p:CANAL+
 37b4:00820000:044c:013e:25:0
 CANAL+ SERIALE HD
-p:CANAL+
-378e:00820000:044c:013e:1:0
-La Une HD
-p:CANAL+
-378f:00820000:044c:013e:1:1
-Tipik
-p:CANAL+
-378c:00820000:044c:013e:1:2
-La Trois
-p:CANAL+
-3790:00820000:044c:013e:1:3
-Club-RTL
-p:CANAL+
-3791:00820000:044c:013e:1:4
-Plug-RTL
-p:CANAL+
-378d:00820000:044c:013e:1:5
-RTL-TVi HD
 p:CANAL+
 3a99:00820000:0514:013e:1:0
 CANAL+ DOKUMENT HD
@@ -5930,9 +5945,6 @@ p:Telespazio
 02c9:00820000:1b58:013e:1:0
 RTP International
 p:Telespazio
-02d3:00820000:1b58:013e:1:0
-Sender Neu Jerusalem
-p:Harmonic
 02d7:00820000:1b58:013e:1:0
 QAF TV
 p:Telespazio
@@ -6343,7 +6355,7 @@ Kalemeh TV
 p:iKO Media Group
 39dc:00820000:1fa4:013e:1:0
 Mohabat TV
-p:
+p:M
 39dd:00820000:1fa4:013e:2:0
 Radio Mojdeh
 p:Radio Mojdeh
@@ -6556,6 +6568,9 @@ AL ALAM TV HD
 p:SABA GROUP
 0646:00820000:2454:013e:1:0
 MS MOTOR TV
+p:
+064b:00820000:2454:013e:1:0
+Church of Jesus Christ
 p:
 064d:00820000:2454:013e:1:0
 ACI_sportTV
@@ -6965,14 +6980,11 @@ p:CANAL+
 0dad:00820000:2d50:013e:1:0
 DTX
 p:CANAL+
-0dae:00820000:2d50:013e:1:0
-Kino Polska Muzyka
-p:CANAL+
 0daf:00820000:2d50:013e:1:0
 Sportklub HD
 p:CANAL+
-0db1:00820000:2d50:013e:1:0
-TVP Sport HD
+0db2:00820000:2d50:013e:1:0
+PLAYBOY HD
 p:CANAL+
 0db3:00820000:2d50:013e:1:0
 Cinemax HD
@@ -7006,12 +7018,6 @@ HBO2 HD
 p:CANAL+
 0dd8:00820000:2d50:013e:1:0
 HBO3 HD
-p:CANAL+
-0de0:00820000:2d50:013e:1:0
-Kino Polska Muzyka
-p:CANAL+
-0de3:00820000:2d50:013e:1:0
-TVP Sport HD
 p:CANAL+
 0de5:00820000:2d50:013e:1:0
 Cinemax HD
@@ -7142,9 +7148,6 @@ p:Cyfrowy Polsat S.A.
 3e26:00820000:2ee0:013e:1:0
 13 Ulica HD
 p:Cyfrowy Polsat S.A.
-3e27:00820000:2ee0:013e:1:0
-TestL
-p:Cyfrowy Polsat S.A.
 3e2b:00820000:2ee0:013e:1:0
 Polsat Sport Premium PPV3
 p:Cyfrowy Polsat S.A.
@@ -7152,7 +7155,10 @@ p:Cyfrowy Polsat S.A.
 Polsat Sport Premium PPV4
 p:Cyfrowy Polsat S.A.
 3e30:00820000:2ee0:013e:1:0
-PPV PRIME 3
+TestPP
+p:Cyfrowy Polsat S.A.
+3e3a:00820000:2ee0:013e:1:0
+TestL
 p:Cyfrowy Polsat S.A.
 3e3e:00820000:2ee0:013e:1:0
 SciFi HD
@@ -7786,19 +7792,28 @@ RADIONORBA TV
 p:Telenorba
 0520:00820000:3d54:013e:1:0
 Yes TV
-p:M-threee Satcom
+p:M-Three Satcom
 0530:00820000:3d54:013e:1:0
 People TV
 p:PEOPLETV-RETE7
 0533:00820000:3d54:013e:1:0
 The Map Report TV
 p:M-Three satcom
+0535:00820000:3d54:013e:1:0
+ER24
+p:M-Three Satcom
+0536:00820000:3d54:013e:1:0
+Parole Di Vita
+p:M-Three Satcom
+0537:00820000:3d54:013e:1:0
+WellTV
+p:M-Three Satcom
 0532:00820000:3d54:013e:2:0
 RVS-Accendi la Speranza
 p:M-Three Satcom Srl
 052f:00820000:3d54:013e:22:0
 Super!
-p:M-ThreeSatcom Srl
+p:M-Three Satcom Srl
 0534:00820000:3d54:013e:22:0
 GOLD TV
 p:M-Three Satcom
@@ -8106,7 +8121,7 @@ p:SkyItalia
 Classica HD
 p:SkyItalia
 106c:00820000:14b4:fbff:25:0
-Western Collection HD
+Directors Collection HD
 p:SkyItalia
 379c:00820000:14b4:fbff:25:0
 NationalGeo HD
@@ -8529,7 +8544,7 @@ p:SkyItalia
 Mosaico Cinema
 p:SkyItalia
 2dcc:00820000:1a2c:fbff:1:0
-Western Collection
+Directors Collection
 p:SkyItalia
 2dcd:00820000:1a2c:fbff:1:0
 Sky Cinema Comedy
@@ -8579,9 +8594,6 @@ p:SkyItalia
 2c4f:00820000:1af4:fbff:1:0
 Boomerang +1
 p:SkyItalia
-1fb0:00820000:1af4:fbff:1:0
-Lazio Style Ch
-p:SkyItalia
 37b5:00820000:1af4:fbff:1:0
 Milan TV
 p:SkyItalia
@@ -8620,6 +8632,9 @@ SuperTennis HD
 p:SkyItalia
 2bac:00820000:1af4:fbff:25:0
 TV2000 HD
+p:SkyItalia
+1fb0:00820000:1af4:fbff:25:0
+Lazio Style HD
 p:SkyItalia
 0dc6:00820000:1af4:fbff:25:0
 ZONA DAZN 5
@@ -8682,7 +8697,7 @@ p:SkyItalia
 Sky Sport HD
 p:SkyItalia
 1090:00820000:2008:fbff:25:0
-Sky Serie Anime HD
+Sky Serie +1 HD
 p:SkyItalia
 1092:00820000:2008:fbff:25:0
 Calcio Overlay HD
@@ -8715,13 +8730,13 @@ p:SkyItalia
 Sky Cinema Family HD
 p:SkyItalia
 0f58:00820000:206c:fbff:25:0
-Sky Documentaries +1 HD
+Sky Documentaries
 p:SkyItalia
 0f5d:00820000:206c:fbff:25:0
 Sky Investigation +1 HD
 p:SkyItalia
 0f5e:00820000:206c:fbff:25:0
-Sky Documentaries +1 HD
+Sky Documentaries
 p:SkyItalia
 1c40:00820000:206c:fbff:130:0
 Sky Supercalcio HD
