@@ -26,7 +26,6 @@
 #DESCRIPTION ---------- Divertisment ----------
 #SERVICE 1:0:1:2:1f4:5:a00000:0:0:0:
 #SERVICE 1:0:16:5:1f4:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db3:145c:5:a00000:0:0:0:
 #SERVICE 1:0:16:7:1f4:5:a00000:0:0:0:
 #SERVICE 1:64:287:0:0:0:0:0:0:0:
 #DESCRIPTION ---------- Sportiv ----------
@@ -50,12 +49,6 @@
 #SERVICE 1:64:28d:0:0:0:0:0:0:0:
 #DESCRIPTION ---------- Serviciu ----------
 #SERVICE 1:0:1:1f:1f4:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db7:145c:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db4:145c:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db1:145c:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db2:145c:5:a00000:0:0:0:
-#SERVICE 1:0:1:1db5:145c:5:a00000:0:0:0:
 #SERVICE 1:64:28e:0:0:0:0:0:0:0:
 #DESCRIPTION ---------- Alte ----------
 #SERVICE 1:0:1:c8:1f4:5:a00000:0:0:0:
-#SERVICE 1:0:1:1dba:145c:5:a00000:0:0:0:
