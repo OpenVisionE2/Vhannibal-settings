@@ -86,7 +86,7 @@
 #DESCRIPTION ---------- m:SAT TV ----------
 #SERVICE 1:0:1:4EDA:CA5:3:EB0000:0:0:0:
 #SERVICE 1:0:1:4ED4:CA5:3:EB0000:0:0:0:
-#SERVICE 1:0:1:4F42:CA4:3:EB0000:0:0:0:
+#SERVICE 1:0:1:4ED5:CA4:3:EB0000:0:0:0:
 #SERVICE 1:64:CC:0:0:0:0:0:0:0::---------- ASTRA  28.2°E ----------
 #DESCRIPTION ---------- ASTRA  28.2°E ----------
 #SERVICE 1:64:CD:0:0:0:0:0:0:0::---------- Sky Uk ----------
