@@ -1,4 +1,4 @@
-#NAME Astra 23.5°E
+#NAME Radio Astra 23.5°E
 #SERVICE 1:64:490:0:0:0:0:0:0:0:
 #DESCRIPTION ---------- M7 Group ----------
 #SERVICE 1:0:2:5253:c99:3:eb0000:0:0:0:
@@ -66,7 +66,7 @@
 #SERVICE 1:0:2:1429:ca2:3:eb0000:0:0:0:
 #SERVICE 1:0:2:1427:ca2:3:eb0000:0:0:0:
 #SERVICE 1:64:491:0:0:0:0:0:0:0:
-#DESCRIPTION ---------- Skylink ----------
+#DESCRIPTION ---------- Canal+ ----------
 #SERVICE 1:0:a:1f7e:ca1:3:eb0000:0:0:0:
 #SERVICE 1:0:a:1f7f:ca1:3:eb0000:0:0:0:
 #SERVICE 1:0:a:1f79:ca1:3:eb0000:0:0:0:
